@@ -1,0 +1,11 @@
+GET http://localhost:5000/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJucG0iOiI1NTIwMTIwMDE4IiwiaWF0IjoxNjY0NTY1MDc3fQ.GyVQl1HS_qet7K4DSmXjhk-J5WnaWfseZ8Y4RHO1S5Y
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "npm": "5520120018",
+    "password": "123456"
+}
